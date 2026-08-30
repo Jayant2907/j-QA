@@ -1,6 +1,8 @@
 # j-QA
 
-An agent skill for **manual, human-perspective QA through the real running UI** — not a code review. It scopes itself to the current git changes, walks the product as a domain expert would, and ends in a **SHIP / DON'T-SHIP** verdict with a defect log.
+> **Agent Harness** — a manual UI QA harness for Cursor and Claude Code.
+
+A **manual UI QA harness** for human-perspective testing through the **real running app** — not a code review. It scopes itself to the current git changes, walks the product as a domain expert would, and ends in a **SHIP / DON'T-SHIP** verdict with a defect log.
 
 Compatible with **Claude Code** and **Cursor** (both use a `SKILL.md` skill folder). Needs a **running app** and browser tools.
 
@@ -85,3 +87,16 @@ j-QA/
 ├── SKILL.md    # Full QA procedure, rungs, verdict contract
 └── README.md
 ```
+
+## Agent Harness collection
+
+Part of the **Agent Harness** suite by [@Jayant2907](https://github.com/Jayant2907) — installable skills that wrap structured agent workflows (review harnesses, QA harnesses, impact sweeps) for Cursor and Claude Code.
+
+| Harness | Role |
+|---|---|
+| [adversarial-review](https://github.com/Jayant2907/adversarial-review) | Merge-review harness |
+| [p-code-review](https://github.com/Jayant2907/p-code-review) | Whole-codebase review harness |
+| [feature-impact-sweep](https://github.com/Jayant2907/feature-impact-sweep) | Cross-cutting impact harness |
+| [j-QA](https://github.com/Jayant2907/j-QA) | Manual UI QA harness (this repo) |
+| [j-user-readiness](https://github.com/Jayant2907/j-user-readiness) | Visual demo-readiness harness |
+| [j-module-audit](https://github.com/Jayant2907/j-module-audit) | Field-level module audit harness |
